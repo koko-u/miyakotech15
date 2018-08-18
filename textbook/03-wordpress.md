@@ -83,7 +83,7 @@ select * from wp_users;
 停止中のものを一気に削除したい場合は以下の通りに
 
 ```sh
-docker rm `docker -qa`
+docker rm `docker ps -qa`
 ```
 
 #### `docker stop <CONTAINER_NAME>`

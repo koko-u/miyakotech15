@@ -98,7 +98,7 @@ docker rm `docker ps -qa`
 
 イメージの一覧を表示するときに使用します
 
-#### `docker rmi <IMAGE_NAME>`
+#### `docker rmi <IMAGE_ID>`
 
 イメージを削除するときに使用します
 
